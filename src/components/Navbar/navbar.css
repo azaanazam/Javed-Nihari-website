@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.nav{
+    height: 60px;
+    width: 100%;
+    background-color: white;
+    /* border: 1px solid gray; */
+}
+
+.btn1{
+   display: flex;
+   gap: 10px;
+   margin-top: 10px;
+   padding: 10px;
+   margin-left: 10px;
+   
+}
+
+
+.btn{
+    height: 35px;
+    width: 130px;
+    background-color: #f29d13;
+    color: white;
+    border-radius: 7px;
+    border: none;
+    font-weight: bold;
+    padding: 2px;
+   
+}
+
+
+.navIcon {
+  color: black;
+  font-size: 30px;
+  margin-left: 97%;
+  position: absolute;
+  top: 20px;
+}

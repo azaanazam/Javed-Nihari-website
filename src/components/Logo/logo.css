@@ -1,0 +1,25 @@
+.logo-container {
+  position: absolute;         /* slider ke upar overlay */
+  top: 2px;                  /* upar se distance */
+  left: 50%;                  /* horizontal center */
+  transform: translateX(-50%); /* exact center */
+  z-index: 40;
+
+  width: 100px;                /* exact logo size ke barabar */
+  height: 100px;
+  border-radius: 50%;         /* circular */
+  background-color: white;    /* sirf logo ke piche */
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  overflow: hidden;           /* div ke bahar kuch bhi nahi dikhega */
+  padding: 0;                 /* extra space remove */
+}
+
+.logo-img {
+  width: 120px;                /* logo thoda chhota, background me fit */
+  height: 120px;
+  display: block;
+}

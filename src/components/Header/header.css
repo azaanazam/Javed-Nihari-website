@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header1{
+    height: 60px;
+    width: 100%;
+    background-color: #f29d13;
+    margin-top: -20px;
+    position: absolute;
+    top: 590px;
+    z-index: 40;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 20px;
+    font-weight: bold;
+}
