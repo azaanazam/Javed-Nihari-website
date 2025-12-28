@@ -11,7 +11,7 @@ const navbar = () => {
           <button className='btn'>03700031565</button>
         </div>
 
-        {/* sirf icon add kiya hai */}
+        
         <FaUser className="navIcon" />
 
       </div>

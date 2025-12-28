@@ -7,7 +7,7 @@ import 'swiper/css/scrollbar';
 
 import img1 from '../images/img-1.webp';
 import img2 from '../images/img-2.webp';
-// import img3 from '../images/img-3.webp';
+
 
 import './home.css';
 
@@ -31,9 +31,6 @@ const Home = () => {
         <SwiperSlide>
           <img src={img2} alt="2" className="home-img" />
         </SwiperSlide>
-        {/* <SwiperSlide>
-          <img src={img3} alt="3" className="home-img" />
-        </SwiperSlide> */}
       </Swiper>
 
     </div>
